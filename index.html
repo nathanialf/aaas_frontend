@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="aaas">
+<head>
+<title>API-as-a-Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#333" />
+
+<!-- Download Bootstrap -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Import our angular! -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+
+<script src="js/def.js"></script>
+<script src="js/app.js"></script>
+<script src="controllers/TEST-addUserController.js"></script>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="main">
+    <!--<div ng-include="'static/pages/navbar.html'"></div>-->
+    <h1>API-as-a-Service</h1>
+    This is not final. This is probably going to be used for testing until the backend has all the main functionality
+	<div id="page-wrap">
+		<div id="content" class="container" ng-view>
+		</div>
+	</div>
+</body>
+</html>
