@@ -1,1 +1,17 @@
-ADD USER PAGE
+<br>
+<div class="alert alert-danger" ng-show="showMsg"><strong>ERROR: </strong>{{message}}</div>
+<br>
+<table>
+	<tr>
+		<td>Email: <td><input type='text' ng-model="user_email">
+	<tr>
+		<td>First Name: <td><input type='text' ng-model="user_fname">
+	<tr>
+		<td>Last Name: <td><input type='text' ng-model="user_lname">
+	<tr>
+		<td>Password: <td><input type='password' ng-model="user_pass">
+</table>
+<br>
+<button ng-click="addUser()">
+	Add User
+</button>

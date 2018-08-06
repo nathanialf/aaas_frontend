@@ -29,3 +29,25 @@ body{
 	--red-gradient:				linear-gradient(40deg, var(--red-light), var(--red-dark));
 	--red-gradient-inverted:	linear-gradient(40deg, var(--red-dark), var(--red-light));
 }
+
+/*CLASSES*/
+.aaas_navbar{
+	background: 				var(--peach-gradient-inverted);
+	color:						white;
+	padding:					8px 0px;
+}
+
+/*UI ELEMENTS*/
+button{
+	background:					var(--peach-gradient-inverted);
+	color:						white;
+	border-style: 				none;
+	border-radius:				100px;
+	padding:					8px 12px;
+}
+
+input{
+	border-style:				none none solid none;
+	border-width:				2px;
+	border-color:				var(--peach-dark);
+}
