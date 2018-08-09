@@ -11,6 +11,21 @@ body{
 	color:						white;
 }
 
+.aaas_tab_container{
+
+}
+
+.aaas_tab{
+	border-color:				var(--peach-dark);
+	background:					none;
+	color:						var(--peach-dark);
+}
+
+.aaas_tab:hover{
+	background:					var(--peach-dark);
+	color:						white;
+}
+
 /*UI ELEMENTS*/
 button{
 	background:					var(--peach-gradient-inverted);

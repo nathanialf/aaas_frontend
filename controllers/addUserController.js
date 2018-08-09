@@ -1,4 +1,4 @@
-app.controller('TEST-addUserController', function($scope, $rootScope, $location, $http)
+app.controller('addUserController', function($scope, $rootScope, $location, $http)
 {
     $scope.showSuccess = false;
     $scope.showDanger = false;

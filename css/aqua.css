@@ -11,6 +11,21 @@ body{
 	color:						black;
 }
 
+.aaas_tab_container{
+
+}
+
+.aaas_tab{
+	border-color:				var(--aqua-dark);
+	background:					none;
+	color:						var(--aqua-dark);
+}
+
+.aaas_tab:hover{
+	background:					var(--aqua-dark);
+	color:						white;
+}
+
 /*UI ELEMENTS*/
 button{
 	background:					var(--aqua-gradient-inverted);

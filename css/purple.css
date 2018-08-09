@@ -9,7 +9,21 @@ body{
 .aaas_navbar{
 	background: 				var(--purple-gradient-inverted);
 	color:						white;
-	font-size:					1em;
+}
+
+.aaas_tab_container{
+
+}
+
+.aaas_tab{
+	border-color:				var(--purple-dark);
+	background:					none;
+	color:						var(--purple-dark);
+}
+
+.aaas_tab:hover{
+	background:					var(--purple-dark);
+	color:						white;
 }
 
 /*UI ELEMENTS*/
