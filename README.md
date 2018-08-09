@@ -1,2 +1,2 @@
 # aaas_frontend
-API-as-a-service frontend
+API-as-a-Service frontend

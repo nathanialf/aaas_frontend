@@ -1,0 +1,23 @@
+body{
+}
+
+/*CLASSES*/
+.aaas_navbar{
+	padding:					8px 0px;
+}
+
+.aaas_navbar > span{
+	font-size:					1.5em;
+}
+
+/*UI ELEMENTS*/
+button{
+	border-style: 				none;
+	border-radius:				100px;
+	padding:					8px 12px;
+}
+
+input{
+	border-style:				none none solid none;
+	border-width:				2px;
+}

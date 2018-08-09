@@ -1,0 +1,22 @@
+body{
+	--aqua-light:				#05FFA3;
+	--aqua-dark:				#2096FF;
+	--aqua-gradient:			linear-gradient(40deg, var(--aqua-light), var(--aqua-dark));
+	--aqua-gradient-inverted:	linear-gradient(40deg, var(--aqua-dark), var(--aqua-light));
+}
+
+/*CLASSES*/
+.aaas_navbar{
+	background: 				var(--aqua-gradient-inverted);
+	color:						black;
+}
+
+/*UI ELEMENTS*/
+button{
+	background:					var(--aqua-gradient-inverted);
+	color:						black;
+}
+
+input{
+	border-color:				var(--aqua-dark);
+}

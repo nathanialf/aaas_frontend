@@ -1,0 +1,22 @@
+body{
+	--peach-dark:				#FC6262;
+	--peach-light:				#FFD86F;
+	--peach-gradient:			linear-gradient(40deg, var(--peach-light), var(--peach-dark));
+	--peach-gradient-inverted:	linear-gradient(40deg, var(--peach-dark), var(--peach-light));
+}
+
+/*CLASSES*/
+.aaas_navbar{
+	background: 				var(--peach-gradient-inverted);
+	color:						white;
+}
+
+/*UI ELEMENTS*/
+button{
+	background:					var(--peach-gradient-inverted);
+	color:						white;
+}
+
+input{
+	border-color:				var(--peach-dark);
+}
