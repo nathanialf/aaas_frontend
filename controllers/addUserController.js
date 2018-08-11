@@ -6,7 +6,8 @@ app.controller('addUserController', function($scope, $rootScope, $location, $htt
 
     $scope.addUser = function(){
         var uri = aaasBackendEndpoint + "/user";
-        $scope.showMsg = false;
+        $scope.showSuccess = false;
+        $scope.showDanger = false;
         $http({
             url:        uri,
             method:     'POST',
@@ -19,12 +20,10 @@ app.controller('addUserController', function($scope, $rootScope, $location, $htt
             }
         }).then(function success(response){
             $scope.showSuccess = true;
-            $scope.showDanger = false;
             $scope.message = "Added " + response.data.fname + " " + response.data.lname;
             console.log($scope.message);
             console.log(response.data);
         }, function error(response){
-            $scope.showSuccess = false;
             $scope.showDanger = true;
             $scope.message = "Failed to add " + $scope.user_fname + " " + $scope.user_lname;
             console.log($scope.message);

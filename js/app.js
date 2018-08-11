@@ -8,5 +8,11 @@ app.config(function($routeProvider, $locationProvider){
 	}).when("/newProject",{
 		templateUrl: "pages/addProject.html",
 		controller: "addProjectController"
+	}).when("/users",{
+		templateUrl: "pages/user.html",
+		controller: "userController"
+	}).when("/projects",{
+		templateUrl: "pages/project.html",
+		controller: "projectController"
 	}).otherwise({redirectTo: "/"});
 });

@@ -1,0 +1,17 @@
+<br>
+<div class="alert alert-danger" ng-show="showDanger"><strong>ERROR: </strong>{{message}}</div>
+<br>
+<div class="aaas_datatable_container">
+<table data-ng-init="getProjects()" class="aaas_datatable">
+	<tr>
+		<th>Code<th>Name<th>Active
+	<tr ng-repeat="p in projects">
+		<td>{{p.code}}<td>{{p.name}}
+		<td ng-if="p.active == 1" class="aaas_tablecell_active">Active
+		<td ng-if="p.active == 0" class="aaas_tablecell_inactive">Inactive
+</table>
+</div>
+<br>
+<button onclick="window.open('#/newProject','_self');">
+	Add Project
+</button>

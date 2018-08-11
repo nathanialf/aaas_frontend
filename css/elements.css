@@ -27,6 +27,37 @@ body{
 	cursor:						pointer;
 }
 
+.aaas_datatable tr:nth-child(even){
+	background:					lightblue;		
+}
+
+.aaas_datatable{
+	width:						100%;
+}
+
+.aaas_datatable_container{
+	border-radius: 				4px;
+	border-style:				solid;
+	border-width: 				1px;
+	border-color:				lightgray;
+}
+
+.aaas_datatable td, .aaas_datatable th {
+	padding:					5px;
+}
+
+.aaas_tablecell_active{
+	color:						green;
+	background-color: 			#6dffa0;
+	text-align:					center;
+}
+
+.aaas_tablecell_inactive{
+	color:						red;
+	background-color: 			#ff6d6d;
+	text-align:					center;
+}
+
 /*UI ELEMENTS*/
 button{
 	border-style: 				none;

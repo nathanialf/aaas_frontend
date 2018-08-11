@@ -1,0 +1,18 @@
+<br>
+<div class="alert alert-danger" ng-show="showDanger"><strong>ERROR: </strong>{{message}}</div>
+<br>
+<div class="aaas_datatable_container">
+<table data-ng-init="getUsers()" class="aaas_datatable">
+	<tr>
+		<th>Email<th>Name<th>Theme<th>Password<th>Active
+	<tr ng-repeat="u in users">
+		<td>{{u.email}}<td>{{u.fname}} {{u.lname}}
+		<td>{{u.theme}}<td>{{u.pass}}
+		<td ng-if="u.active == 1" class="aaas_tablecell_active">Active
+		<td ng-if="u.active == 0" class="aaas_tablecell_inactive">Inactive
+</table>
+</div>
+<br>
+<button onclick="window.open('#/newUser','_self');">
+	Add User
+</button>
