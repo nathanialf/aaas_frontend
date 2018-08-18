@@ -1,14 +1,15 @@
 <br>
 <div class="alert alert-danger" ng-show="showDanger"><strong>ERROR: </strong>{{message}}</div>
 <br>
-<div class="aaas_datatable_container">
-<table data-ng-init="getProjects()" class="aaas_datatable">
+<div class="container">
+<table data-ng-init="getProjects()" class="table table-hover">
 	<tr>
-		<th>Code<th>Name<th>Active
+		<th>Code<th>Name<th>Active<th>Edit
 	<tr ng-repeat="p in projects">
 		<td>{{p.code}}<td>{{p.name}}
 		<td ng-if="p.active == 1" class="aaas_tablecell_active">Active
 		<td ng-if="p.active == 0" class="aaas_tablecell_inactive">Inactive
+		<td><span ng-click="viewProject(p.id)">Edit</span>
 </table>
 </div>
 <br>

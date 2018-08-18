@@ -1,10 +1,10 @@
 <br>
 <div class="alert alert-danger" ng-show="showDanger"><strong>ERROR: </strong>{{message}}</div>
 <br>
-<div class="aaas_datatable_container">
-<table data-ng-init="getUsers()" class="aaas_datatable">
+<div class="container">
+<table data-ng-init="getUsers()" class="table table-hover">
 	<tr>
-		<th>Email<th>Name<th>Theme<th>Password<th>Active
+		<th scope="col">Email<th scope="col">Name<th scope="col">Theme<th scope="col">Password<th scope="col">Active
 	<tr ng-repeat="u in users">
 		<td>{{u.email}}<td>{{u.fname}} {{u.lname}}
 		<td>{{u.theme}}<td>{{u.pass}}

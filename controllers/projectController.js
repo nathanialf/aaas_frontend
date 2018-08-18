@@ -18,4 +18,8 @@ app.controller('projectController', function($scope, $rootScope, $location, $htt
             console.log("help");
         });
     }
+
+    $scope.viewProject = function(projectID) {
+        window.open("#/viewProject/"+projectID, "_self");
+    }
 });
