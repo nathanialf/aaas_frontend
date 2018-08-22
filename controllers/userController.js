@@ -1,4 +1,4 @@
-app.controller('userController', function($scope, $rootScope, $location, $http)
+app.controller('userController', function($scope, $routeParams, $rootScope, $location, $http)
 {
     $scope.showDanger = false;
     $scope.message = "";
